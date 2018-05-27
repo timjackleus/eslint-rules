@@ -1,0 +1,16 @@
+{
+  "name": "tj-eslint-rules",
+  "version": "0.1.0",
+  "description": "My eslint rules to use for my private projects",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 4.19.0"
+  },
+  "author": "Tim Jackleus",
+  "license": "ISC"
+}
