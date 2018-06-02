@@ -29,7 +29,7 @@ module.exports = {
     "callback-return": "error",
     "camelcase": "off",
     "comma-dangle": [
-      "error", "always"
+      "error", "always-multiline"
     ],
     "comma-spacing": "error",
     "comma-style": [
@@ -220,10 +220,10 @@ module.exports = {
     "rest-spread-spacing": "error",
     "semi": "error",
     "semi-spacing": "error",
-    "sort-imports": ["error", {
-        "ignoreCase": true,
-        "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+    "sort-imports": [2, {
+      "ignoreCase": true,
+      "ignoreMemberSort": true,
+      "memberSyntaxSortOrder": ['none', 'all', 'single', 'multiple']
     }],
     "sort-keys": "error",
     "sort-vars": "off",
@@ -251,7 +251,7 @@ module.exports = {
       {
         blankLine: "always",
         prev: "import",
-        next: "*"
+        next: ["const", "let", "function", "class"]
       },
       {
         blankLine: "never",
@@ -261,7 +261,7 @@ module.exports = {
       {
         blankLine: "always",
         prev: "directive",
-        next: "*"
+        next: ["const", "let", "function"]
       },
       {
         blankLine: "always",

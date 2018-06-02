@@ -1,5 +1,5 @@
 {
-  "name": "tj-eslint-rules",
+  "name": "eslint-config-tj",
   "version": "0.1.0",
   "description": "My eslint rules to use for my private projects",
   "main": "index.js",
